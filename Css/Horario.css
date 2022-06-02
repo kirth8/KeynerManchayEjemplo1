@@ -1,0 +1,58 @@
+body {
+    background: rgba(105, 1, 1, 0.863);
+}
+
+/* table {
+    width: 100%;
+    border: 1px solid #000;
+    background: rgb(185, 185, 185);
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ } */
+
+ table {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+ }
+ 
+ td, th {
+    border: 1px solid transparent;
+    height: 30px;
+    width: 10%;
+ }
+ 
+ th {
+    background: #D3D3D3;
+    font-weight: bold;
+ }
+ 
+ td {
+    background: #FAFAFA;
+    
+ }
+ 
+ tr:nth-child(even) td {
+    background: #F1F1F1;
+ }
+ 
+ tr:nth-child(odd) td {
+    background: #FEFEFE;
+ }
+ 
+ tr td:hover {
+    background: #666;
+    color: #FFF;
+ }
+
+ #h1Horario {
+     color: aliceblue;
+     font-size: 70px;
+     text-align: center;
+
+ }

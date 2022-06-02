@@ -1,0 +1,33 @@
+body {
+    background-image: url("../Imagenes/Fondos/FondoCalculadora.jpg");
+}
+
+#TituloCalculadora {
+    font-weight: 70px;   
+    text-align: center;
+    display: block; 
+    color: rgb(17, 1, 30);
+    font-size: 70px;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(81, 3, 73);
+    
+}
+
+
+button {
+    width: 100%;
+    font-size: 150%;
+    background-color: tomato;
+}
+
+.ac {
+    color: red;
+    background-color: black;    
+}
+
+img {
+    width: 100%;
+}

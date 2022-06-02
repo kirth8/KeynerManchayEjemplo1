@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="./Css/Video.css">
+    <link rel="stylesheet" href="./Css/EstiloPrincipal.css">
+    <title>Menu</title>
+</head>
+
+<body>
+
+<main id="Principal">
+
+    <div class="contenedor" id="Cuerpo">
+        <h1 class="Titulo">Menu de Opciones</h1>
+        <div class="ContenedorBotones">
+            <form action="Audio.html">
+                <button class="Boton">Audio</button>
+            </form>
+
+            <form action="Imagenes.html">
+                <button class="Boton">Imagenes</button>
+            </form>
+            
+            <form action="Curriculum.html">
+                <button class="Boton">Curriculum</button>
+            </form>
+
+            <form action="Calculadora.html">
+                <button class="Boton">Calculadora</button>
+            </form>
+
+            <form action="PaginaEstudiantes.php">
+                <button class="Boton">Estudiantes</button>
+            </form>
+
+            <form action="Horario.php">
+                <button class="Boton">Horario</button>
+            </form>
+
+            <form action="Contador.html">
+                <button class="Boton">Contador</button>
+            </form>
+
+            <button class="Boton" id="btn-abrir-popup">Video</button>
+
+            <div class="overlay" id="overlay">
+                <div class="popup" id="popup">
+                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <h3>Video de Prueba</h3>
+                    <h4>Video sacado de la web, llamado "¿QUÉ ES PROGRAMACIÓN?" del Autor: "ZonaClass"</h4>
+                    <div style="text-align:center">
+
+                        <video id="video1" width="560">
+                            <source src="./Video/Pelicula.mp4" type="video/mp4">
+                            <track src="./Subtitulos/Subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default>
+                        </video>
+                        <br><br>
+                        <div class="BotonesVideos">
+                            <button class="Boton" onclick="makeNormal()"><span>Normal</span></button>
+                            <button class="Boton" onclick="playPause()"><span>Play/Pause</span></button>
+                            <button class="Boton" onclick="makeSmall()"><span>Pequeño</span></button>
+                            <button class="Boton" onclick="makeVerySmall()"><span>Muy Pequeño</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="popup.js"></script>
+    <script src="Video.js"></script>
+    <div class="capa">
+        <div id="popup">
+            <video id="VideoFondo" muted autoplay loop>
+                <source src="./Video/VideoFondo.mp4">
+            </video>
+        </div>
+    </div>
+</main>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+[
+    {
+        "Dia": "Lunes",
+        "Materias": {
+            "Materia1": "Simulacion",
+            "Materia2": "Analisis Numerico",
+            "Materia3": "Sistemas Digitales"
+        },
+        "Profesores": {
+            "Profesor1": "Oscar Cumbicus",
+            "Profesor2": "Franco Salcedo",
+            "Profesor3": "Cesar Pineda"
+        }
+    },
+    {
+        "Dia": "Martes",
+        "Materias": {
+            "Materia1": "Fundamentos de Redes de Comunicaciones",
+            "Materia2": "Desarrollo Basado en Plataformas",
+            "Materia3": "Analisis Numerico"
+        },
+        "Profesores": {
+            "Profesor1": "Mario Cueva",
+            "Profesor2": "Roberth Figueroa",
+            "Profesor3": "Franco Salcedo"
+        }
+    },
+    {
+        "Dia": "Miercoles",
+        "Materias": {
+            "Materia1": "Sistemas Digitales",
+            "Materia2": "Analisis Numerico",
+            "Materia3": "Desarrollo Basado en Plataformas"
+        },
+        "Profesores": {
+            "Profesor1": "Cesar Pineda",
+            "Profesor2": "Franco Salcedo",
+            "Profesor3": "Roberth Figueroa"
+        }
+    },
+    {
+        "Dia": "Jueves",
+        "Materias": {
+            "Materia1": "Desarrollo Basado en Plataformas",
+            "Materia2": "Fundamentos de Redes de Comunicaciones",
+            "Materia3": "Simulacion"
+        },
+        "Profesores": {
+            "Profesor1": "Roberth Figueroa",
+            "Profesor2": "Mario Cueva",
+            "Profesor3": "Oscar Cumbicus"
+        }
+    },
+    {
+        "Dia": "Viernes",
+        "Materias": {
+            "Materia1": "Desarrollo Basado en Plataformas",
+            "Materia2": "Simulacion",
+            "Materia3": "Sistemas Digitales"
+        },
+        "Profesores": {
+            "Profesor1": "Roberth Figueroa",
+            "Profesor2": "Oscar Cumbicus",
+            "Profesor3": "Cesar Pineda"
+        }
+    }
+]

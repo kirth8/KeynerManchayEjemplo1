@@ -1,0 +1,125 @@
+h1 {
+	font-size: 58px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	color: #141414;
+	border: 5px solid #141414;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+body{
+    background-image: url("../Imagenes/Fondos/FondoLogin.jpg");
+}
+
+.ContenidoPagina2 {
+    background: rgba(33, 41, 52, 0.5);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    
+}
+
+.ContenidoPagina3 {
+    background: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0, 0.5);
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+
+}
+
+.ContenidoPagina2 h4 {
+    margin-bottom: 70px;
+    text-align: center;
+    height: 40px;
+    font-weight: 600;
+    font-size: 50px;
+    opacity: 0; 
+}
+
+.CajaTexto{
+    width: 97%;
+    border: 1px violet;
+    margin-bottom: 17px;
+    padding: 11px 10px;
+    background: bisque;
+    font-size:25px;
+    font-weight: lighter;
+    line-height: 52px;
+    text-align: center;
+    opacity: 0;
+    color: black;
+}
+
+.Boton{
+    width: 100%;
+    height: 70px;
+    border: black;
+    margin-bottom: 16px;
+    font-weight: bolder;
+    font-size: 30px;
+    background: rgb(255, 151, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 56, 28);
+    padding: 0  20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s ease all;
+
+}
+
+
+.Boton:hover {
+background: rgba(114, 2, 86, 0.822);
+
+}
+
+.ContenidoPagina2 h4{
+    animation: entradatitulo .8s ease .5s forwards;
+}
+
+.ContenidoPagina2 {
+    animation: Visible .8s ease .5s forwards;
+}
+
+.CajaTexto {
+    animation: EntradaCajaTexto 1s ease 1s forwards;
+}
+
+@keyframes entradatitulo {
+    from {
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes Visible {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes EntradaCajaTexto{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

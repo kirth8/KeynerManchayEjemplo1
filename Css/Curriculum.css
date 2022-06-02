@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #3b9aff;
+
+}
+
+.PrimeraFranja {
+    width: 100%;
+    height: 350px;
+    background: #153f34;
+    transform: skewY(10deg);
+}
+
+.PrimeraFranja .SegundaFranja {
+    width: 100%;
+    height: 350px;
+    background: #151E3F;
+    transform: skewY(-20deg);
+}
+
+.PrimeraFranja .SegundaFranja .Imagen {
+    transform: skewY(10deg);
+    position: absolute;
+    top: 120px;
+    right: 8%;
+    width: 200px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.PrimeraFranja .SegundaFranja .Imagen img {
+    width: 180px;
+    height: 180px;
+}
+
+.PrimeraFranja .SegundaFranja .Contenido {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25px;
+
+}
+
+.PrimeraFranja .SegundaFranja .Contenido .Parrafo1 {
+    font-weight: bolder;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 55px;
+    transform: skewY(10deg);
+    margin-bottom: 0;
+}
+
+.PrimeraFranja .SegundaFranja .Contenido .Parrafo2 {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    transform: skewY(10deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Informacion {
+    width: 100%;
+    height: auto;
+    /* background: #DC9E82; */
+    margin: 10% auto;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.Informacion .TituloSeccion {
+    font-family: 'Cabin', sans-serif;
+    color: #151E3F;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom: 2px #151E3F solid;
+    text-align: center;
+}
+
+.Informacion .TituloInformacion {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 1px;
+
+}
+
+.Informacion .InformacionInformacion {
+    font-family: 'Cabin', sans-serif;
+    color: #151E3F;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.InformacionSiguiente {
+    width: 100%;
+    height: auto;
+    /* background: #DC9E82; */
+    margin-top: 45px;
+    padding: 20px;
+
+}
+
+.InformacionSiguiente .TituloSeccion {
+    font-family: 'Cabin', sans-serif;
+    color: #151E3F;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom: 2px #151E3F solid;
+    text-align: center;
+}
+
+.InformacionSiguiente .TituloInformacion {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 1px;
+
+}
+
+.InformacionSiguiente .InformacionInformacion {
+    font-family: 'Cabin', sans-serif;
+    color: #151E3F;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}

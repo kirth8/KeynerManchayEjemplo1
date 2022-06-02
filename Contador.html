@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./Operaciones/Contador.js"></script>
+    <link rel="stylesheet" href="./Css/Contador.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section id="sect">
+        <div class="midl">
+            <div class="CuadroEtiqueta1">
+                <h1 id="Etiqueta1">Contador con Botones</h1>
+            </div>
+            <button id="BotonSumar">Suma</button>
+            <button id="BotonReset">Resetea</button>
+            <button id="BotonRestar">Resta</button>
+            <p id="ContarClick"></p>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        var btnSum = document.getElementById('BotonSumar'),
+            btnClear = document.getElementById('BotonReset'),
+            btnRest = document.getElementById('BotonRestar'),
+            pElm = document.getElementById('ContarClick'),
+            contar = 0;
+
+            pElm.textContent = 0;
+
+        btnSum.onclick = function () {
+            contar++;
+            pElm.textContent = contar;
+        }
+
+        btnClear.onclick = function () {
+            pElm.textContent = 0;
+            contar = 0;
+        }
+
+        btnRest.onclick = function () {
+            contar--;
+            pElm.textContent = contar;
+            
+        }
+    </script>
+
+</body>
+
+</html>
